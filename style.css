@@ -68,3 +68,41 @@ p {
 ul {
     padding-left: 20px;
 }
+
+.contact-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* LinkedIn Blue */
+.linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+/* Engineering/Professional Grey */
+.email {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Resume Red/Orange */
+.resume {
+    border: 2px solid #2c3e50;
+    color: #2c3e50;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    filter: brightness(1.1);
+}
