@@ -106,3 +106,32 @@ ul {
     opacity: 0.8;
     filter: brightness(1.1);
 }
+
+.profile-container {
+    display: flex;
+    align-items: center; /* Vertically centers the text with the image */
+    gap: 40px; /* Space between the image and text */
+    flex-wrap: wrap; /* Ensures it looks good on mobile */
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the image a circle */
+    object-fit: cover; /* Prevents the image from stretching */
+    border: 4px solid #2c3e50; /* Matches your header color */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.bio-text {
+    flex: 1; /* Allows text to take up remaining space */
+    min-width: 300px; /* Prevents text from getting too narrow */
+}
+
+/* Mobile Tweak: Centers everything when the screen is small */
+@media (max-width: 600px) {
+    .profile-container {
+        text-align: center;
+        justify-content: center;
+    }
+}
