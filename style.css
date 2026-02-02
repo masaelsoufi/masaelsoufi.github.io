@@ -135,3 +135,17 @@ ul {
         justify-content: center;
     }
 }
+
+.profile-figure {
+    margin: 0;
+    text-align: center; /* Centers the caption under the photo */
+}
+
+.pic-caption {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    max-width: 200px; /* Keeps the text width the same as the photo */
+    line-height: 1.3;
+}
