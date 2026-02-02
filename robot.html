@@ -1,22 +1,39 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Project | Masa El Soufi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="project-header">
     <h1>Search and Rescue Robot</h1>
-    <a href="index.html" style="color: white;">← Back to Home</a>
+    <p>ECSE 211 - Design Principles and Methods</p>
+    <a href="index.html" class="back-link">← Back to Portfolio</a>
 </header>
 
 <section>
-    <h2>Project Gallery</h2>
-    <p>Here is the ECSE 211 robot during the final testing phase.</p>
+    <h2>Project Overview</h2>
+    <p>This project involved designing, building, and programming an autonomous robot capable of navigating a grid, identifying obstacles, and performing search and rescue operations.</p>
     
-    <div class="media-container">
-        <h3>Robot Movement Demo</h3>
-        <video width="100%" controls>
-            <source src="robot-video.MOV" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+    <div class="media-gallery">
+        <div class="media-item">
+            <h3>Autonomous Navigation Demo</h3>
+            <div class="video-wrapper">
+                <video controls>
+                    <source src="robot-video.MOV" type="video/mp4">
+                </video>
+            </div>
+        </div>
 
-    <div class="media-container">
-        <h3>Design Photos</h3>
-        <img src="robot-photo.jpeg" alt="Robot Design" style="width:100%; border-radius: 8px;">
+        <div class="media-item">
+            <h3>Hardware Architecture</h3>
+            <img src="robot-photo.jpg" alt="Robot Top View" style="width:100%; border-radius: 4px;">
+        </div>
     </div>
 </section>
+
+</body>
+</html>
