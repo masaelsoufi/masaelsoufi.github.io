@@ -169,7 +169,7 @@ ul {
 
 /* Project Page Specific Styles */
 .project-header {
-    background: linear-gradient(135deg, #02513c 0%, #000000 100%);
+    background: linear-gradient(135deg, #333 0%, #000000 100%);
     color: white;
     padding: 3rem 1rem;
     text-align: center;
@@ -204,7 +204,7 @@ ul {
 .media-item h3 {
     margin: 10px 0;
     font-size: 1.1rem;
-    color: #187b61;
+    color: #333;
     text-align: center;
 }
 
