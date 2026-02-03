@@ -169,7 +169,7 @@ ul {
 
 /* Project Page Specific Styles */
 .project-header {
-    background: linear-gradient(135deg, #187b61 0%, #000000 100%);
+    background: linear-gradient(135deg, #02513c 0%, #000000 100%);
     color: white;
     padding: 3rem 1rem;
     text-align: center;
@@ -178,7 +178,7 @@ ul {
 .back-link {
     display: inline-block;
     margin-top: 1rem;
-    color: #187b61;
+    color: #02513c;
     text-decoration: none;
     font-weight: bold;
 }
